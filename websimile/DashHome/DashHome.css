@@ -1,0 +1,147 @@
+body {
+
+    background-image: url(Images/peterAndWendy);
+    background-size: 1200px 583px;
+    background-repeat: no-repeat;
+    position:fixed;
+}
+
+/* The overall brown transparent background on top of the base background*/
+#interfaceContainer {
+    background-color:#241711;
+    width:1200px;
+    height:583px;
+    opacity:0.7;
+    position:absolute;
+}
+
+#searchBox {
+    background-color:black;
+    opacity:0.4;
+    padding-top:8px;
+    width:1200px;
+}
+
+#searchBox>img {
+    width:30px;
+}
+
+#textInput {
+    background-color:transparent;
+    border-color:rgb(112,112,112);
+    width: 1135px;
+}
+
+.recentGeneric {
+    width:1200px;
+    font-size:14px;
+    color:#E0E0E0;
+    position:relative;
+    text-align:left;
+    padding-left:40px;
+    background-color:transparent;
+    border-color:transparent;
+}
+
+.recentGeneric:hover {
+    background-color:#878787;
+    opacity:0.5;
+    
+}
+
+.recentGeneric>img {
+    width:20px;
+    padding-left:10px;
+    background-color:transparent;
+}
+
+.moreResults {
+    font-size:10px;
+    color:white;
+    padding-left:10px;
+}
+
+.recentOptionsGeneric {
+        position: relative;
+        left: 40px;
+        padding-top:10px;
+        padding-left:30px;
+        position:relative;
+}
+
+.genericButton {
+    background-color:transparent;
+    border-color:transparent;
+    width:100px;
+    height:120px;
+    color:#E0E0E0;
+    font-size:11px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+/* The white outline around each button when scrolled over*/
+.outline {
+    display:block;
+}
+
+.outline:hover {
+    background-color:white;
+    border:2px solid;
+    border-radius:7px;
+    -moz-border-radius:7px; /* Firefox 3.6 and earlier */
+    padding: 3px;
+}
+
+.genericButton>img {
+    width:70px;
+    height:70px;
+}
+
+.genericButton>img:hover {
+    background-color:white;
+}
+
+#bottomMenuBackground {
+    height:40px;
+    width:1200px;
+    padding-left:30px;
+    position:absolute;
+    background-color:black;
+    opacity:0.3;
+}
+
+#bottomMenu {
+    padding-left:450px;
+}
+
+#bottomMenu>button {
+    display:inline-block;
+    padding-left:15px;
+    padding-right:15px;
+    width:70px;
+    height:40px;
+    background-color:transparent;
+    border-color:transparent;
+    position:bottom;
+}
+
+#bottomMenu:hover {
+    background-color:white;
+    opacity:0.6;
+}
+
+.bottomMenuButton>img {
+    background-color:transparent;
+    width:30px;
+    height:30px;
+}
+
+#houseIcon {
+    width:50px;
+}
+
+.bottomMenuButton>img:hover {
+    background-color:white;
+    opacity:0.4;
+}

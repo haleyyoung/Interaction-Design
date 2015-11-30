@@ -1,0 +1,27 @@
+Name        Ebay                                                                    Amazon
+            Familiar    Account Score   Search  Score   Review          Score       Familiar    Account Score   Search  Score   Review  Score
+Jonathan    No          10.2    4       15.3    8       1:10(give up)   1           Yes         24.1    8       8.3     8       7.3     9
+
+Danny       Yes         6.9     6       17.7    5       51.2            2           Yes         19.4    5       8.7     8       13.6    5
+
+Tyler       No          12.4    9       13.5    7       2:28(give up)   -1          No          45.4    9       11.5    9       11.2    8
+
+Eric        Yes         7.7     8       48.1    8       2:36(give up)   0           Yes(more)   18.7    7       4.9     8       15.8    9
+
+Masao       Yes         12.4    8       23.1    8       2:13            2           Yes(more)   25.5    9       12.3    9       8.1     10
+
+Marino      Yes         23.7    8       9.1     10      1:54            2           Yes(more)   26.5    8       9.6     10      8.7     8
+
+Haley       No          15.2    7       19.4    8       1:06            4           No          1:02    5       10      8       12.6    8
+
+Alec        Yes         10.2    9       11.3    10      1:50(give up)   0           Yes         18.9    8       7.7     10      11.9    8
+
+Olivia      Yes         12.8    10      37.6    6       2:28(give up)   0           Yes         13.6    10      18.7    10      19.4    10
+
+Quin        Yes(more)   7.1     7       12.4    7       1:07            4           Yes         14.7    5       15.3    7       21.1    8
+
+Braus       Yes         8       5       12.5    8       3:07            2           Yes(more)   34.1    7       13.1    8       1:10    7
+
+Marvin      Yes         21.7    5       29.4    8       52.9            3           Yes         26.7    7       20.5    8       5.8     9
+
+Teresa      Yes         14      10      26.9    7       1:41            1           Yes         25.9    9       22.6    10      5.9     9

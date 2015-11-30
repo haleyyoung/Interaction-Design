@@ -1,0 +1,265 @@
+body {
+    background-image: url(Images/MarkTwain2.jpg);
+    background-size: 300px 450px;
+    background-repeat: no-repeat;
+}
+
+#topBar {
+    padding-left:25px;
+    text-align: center;
+    background-image: -moz-linear-gradient(left, #CC0000, #F8D0D8, #FF0000);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #CC0000), 
+        color-stop(0.50,#F8D0D8), color-stop(1, #FF0000));
+    width: 305px;
+    height: 25px;
+    font-size:15px;
+    color:white;
+}
+
+#topBar>img {
+    height:25px;
+}
+
+#scrollablePage {
+    overflow:scroll;
+    width:300px;
+    height:380px;    
+}
+
+#MouseWaitPulse {
+    background-color: white;
+    position:relative;
+    left:38px;
+    padding-left:10px;
+    padding-right:10px;
+    width: 230px;
+    height:250px;
+    overflow:scroll;
+    border-style:solid;
+    border-width:15px 5px 10px 5px;
+    border-color:#ACACAC;
+    border-radius:5px;
+    font-size:12px;
+}
+
+#pulseTitle {
+    position:relative;
+    text-align:center;
+}
+
+.boldFont {
+    font-weight:bold;
+}
+
+.space {
+    height:10px;
+}
+
+#normalOptions {
+    background-color:rgba(255,255,255,0.6);
+    width:266px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius:9px;
+}
+
+/* Dealt with separately to created rounded borders only on top*/
+#topButton {
+    background-color:transparent;
+    border-radius:9px 9px 0px 0px;
+}
+
+#normalOptions>button {
+    background-color:transparent;
+}
+
+.actualData {
+    display:block;
+    width:250px;
+    font-size:14px;
+    text-align:left;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+}
+
+.info {
+    display:block;
+    text-align:left;
+    font-size: 11px;
+}
+
+/* Dealt with separately to created rounded borders only on bottom*/
+#bottomButton {
+    border-radius:0px 0px 9px 9px;
+}
+
+.arrowIcon {
+    float:right;
+    height:15px;
+}
+
+#search {
+    width:280px;
+    height:30px;
+    margin-left:10px;
+}
+
+#searchBox>img {
+    height:20px;
+}
+
+#textInput {
+    font-size:14px;
+    color:gray;
+}
+
+#facebook {
+    width:260px;
+    left:28px;
+    font-size:13px;
+    color:white;
+    text-align:center;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+    margin-left:10px;
+    border-radius:9px;
+}
+
+#facebook>img {
+    height:50px;
+    padding-right:45px;
+}
+
+#mouseRank {
+    background-color:rgba(255,255,255,0.6);
+    width:260px;
+    margin-left:10px;
+    border-radius:9px;
+}
+
+#mouseRank>button {
+    background-color:transparent;
+    width:260px;
+    font-size:14px;
+    text-align:left;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+    border-radius:9px;
+}
+
+.login {
+    height:30px;
+}
+
+#join {
+    border-style:solid;
+    border-width:5px;
+    border-color:gray;
+    margin-left:10px;
+    width:250px;
+    background-color:white;
+    text-align:center;
+    font-size:11px;
+    border-radius:9px;
+}
+
+#moreToKnow {
+    background-color:rgba(255,255,255,0.6);
+    width:260px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius:9px;
+}
+
+/* Dealt with separately to created rounded borders only on top*/
+#moreToKnowTop {
+    background-color:transparent;
+    width:260px;
+    font-size:14px;
+    text-align:left;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+    border-radius:9px 9px 0px 0px;
+}
+
+#moreToKnow>button {
+    background-color:transparent;
+    width:260px;
+    font-size:14px;
+    text-align:left;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+}
+
+/* Dealt with separately to created rounded borders only on bottom*/
+#moreToKnowBottom {
+    background-color:transparent;
+    width:260px;
+    font-size:14px;
+    text-align:left;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+    border-radius:0px 0px 9px 9px;
+}
+
+#app316 {
+    height:30px;
+    width:200px;
+}
+
+#settings {
+    background-color:rgba(255,255,255,0.6);
+    width:260px;
+    margin-left:10px;
+    border-radius:9px;
+}
+
+#actualDataSettings {
+    background-color:transparent;
+    width:260px;
+    font-size:14px;
+    text-align:left;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+    border-radius:9px;
+}
+
+#toolbar {
+    position:fixed;
+    top:405px;
+    height:45px;
+    width: 330px;
+    background-color:black;
+}
+
+#toolbarButtonFirst {
+    margin-left:32px;
+    position:relative;
+    width:55px;
+    background-color:transparent;
+    border-color:transparent;
+    font-size:7px;
+    color:white;
+}
+
+#toolbar>button {
+    position:relative;
+    width:55px;
+    background-color:transparent;
+    border-color:transparent;
+    font-size:7px;
+    color:white;
+    padding-left:5px;
+}
+
+.toolbarImage {
+    height:25px;
+    width:25px;
+}

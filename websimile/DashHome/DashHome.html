@@ -1,0 +1,198 @@
+<!doctype html>
+
+<!-- A facsimile of the Linux Dash Home interface. -->
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Dash Home Facsimile</title>
+        <link rel="stylesheet"
+                href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/css/bootstrap.min.css"/>
+        <link rel="stylesheet"
+                href="DashHome.css"/>
+    </head>
+    
+    <body>
+        <div id="interfaceContainer">
+        </div>
+        
+        <form method="get" id="searchBox">
+            <input type="image" src="Images/SearchIcon.png" alt="Search">
+            <input type="text" id="textInput"/>
+        </form>
+        
+        <button class="row recentGeneric">
+            <img src="Images/recentAppsIcon.png" alt="Recent Apps"/>
+            Recent Apps
+            <span class="moreResults"> See 5 more results</span>
+            <img src="Images/rightArrowIcon.png" alt="More"/>
+        </button>
+        
+        <div class="row recentOptionsGeneric">
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/ImageViewerIcon.png" alt="Image Viewer"/>
+                </span>
+                Image Viewer
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/AppearanceIcon.png" alt="Appearance"/>
+                </span>
+                Appearance
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/ArchiveManagerIcon.png" alt="Archive Manager"/>
+                </span>
+                ArchiveManager
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/FilesIcon.png" alt="Files"/>
+                </span>
+                Files
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/UbuntuSoftwareCenterIcon.png" alt="Ubuntu Software Center"/>
+                </span>
+                Ubuntu Software Center
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/UserAccountsIcon.png" alt="User Accounts"/>
+                </span>
+                User Accounts
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/PasswordsAndKeysIcon.png" alt="Passwords and Keys"/>
+                </span>
+                Passwords and Keys
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/LibreOfficeImpressIcon.png" alt="Libre Office Impress"/>
+                </span>
+                LibreOffice Impress
+            </button>
+        </div>
+        
+        <button class="row recentGeneric" >
+            <img src="Images/recentFilesIcon.png" alt="Recent Files"/>
+            Recent Files
+            <span class="moreResults"> See 11 more results</span>
+            <img src="Images/rightArrowIcon.png" alt="More"/>
+        </button>
+        
+        <div class="row recentOptionsGeneric">
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/htmlIcon.png" alt="Html File"/>
+                </span>
+                DashHome.html
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/DashHomeScreenshotIcon.png" alt="Dash Home Screenshot"/>
+                </span>
+                DashHomeScreenshot.png
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/cssIcon.png" alt="Css File"/>
+                </span>
+                DashHome.css
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/peterAndWendyIcon.png" alt="Peter and Wendy"/>
+                </span>
+                peterAndWendy
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/cssIcon.png" alt="Css File"/>
+                </span>
+                finder-preferences.css
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/htmlIcon.png" alt="Html File"/>
+                </span>
+                finder-preferences.html
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/htmlIcon.png" alt="Html File"/>
+                </span>
+                hello.html
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/htmlIcon.png" alt="Html File"/>
+                </span>
+                EventWriterPage.html
+            </button>
+        </div>
+        
+        <button class="row recentGeneric" >
+            <img src="Images/downloadsIcon.png" alt="Downloads"/>
+            Downloads
+        </button>
+        
+        <div class="row recentOptionsGeneric">
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/readmeIcon.png" alt="ReadMe File"/>
+                </span>
+                README
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/apacheWicketIcon.png" alt="Apache Wicket"/>
+                </span>
+                apache-wicket-6.0.0
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/apacheWicketTarIcon.png" alt="Apache Wicket .tar file"/>
+                </span>
+                apache-wicket-6.0.0.tar.gz
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/zipIcon.png" alt=".zip file"/>
+                </span>
+                apache-maven-3.0.4-src.zip
+            </button>
+            <button type="button" class="genericButton">
+                <span class="outline">
+                    <img src="Images/zipIcon.png" alt=".zip file"/>
+                </span>
+                junit4.11-...-20120805-1225.zip
+            </button>
+        </div>
+        
+        <div class="row" id="bottomMenuBackground">
+        </div>
+        
+        <div class="row" id="bottomMenu">
+            <button type="button" class="bottomMenuButton">
+                <img src="Images/houseIcon.png" id="houseIcon" alt="Home"/>
+            </button>
+            <button type="button" class="bottomMenuButton">
+                <img src="Images/barsIcon.png" alt="Applications"/>
+            </button>
+            <button type="button" class="bottomMenuButton">
+                <img src="Images/fileIcon.png" alt="Files and Folders"/>
+            </button>
+            <button type="button" class="bottomMenuButton">
+                <img src="Images/musicIcon.png" alt="Music"/>
+            </button>
+            <button type="button" class="bottomMenuButton">
+                <img src="Images/movieIcon.png" alt="Videos"/>
+            </button>
+        </div>
+    </body>
+</html>
